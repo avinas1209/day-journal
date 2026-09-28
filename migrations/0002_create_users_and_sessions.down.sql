@@ -1,0 +1,4 @@
+ALTER TABLE entries DROP CONSTRAINT IF EXISTS entries_author_fk;
+DROP TABLE IF EXISTS auth_events;
+DROP TABLE IF EXISTS sessions;
+DROP TABLE IF EXISTS users;
